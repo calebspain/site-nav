@@ -1,0 +1,38 @@
+.nav {
+    background: darkseagreen;
+    padding: 18px 60px;
+}
+
+.nav__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__menu::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav__menu--option {
+    float: right;
+    margin: 0px 20px;
+}
+
+.nav__menu--option:first-child {
+    float: left;
+}
+
+.nav__menu--option a {
+    font-family: futura, sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-transform: unset;
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    font-weight: 600;
+}
